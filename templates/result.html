@@ -1,0 +1,55 @@
+<!-- result.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluation - Result</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif; /* Change font family */
+            line-height: 1.6;
+            padding: 30px;
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            font-weight: bold; /* Apply bold style */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        h1 {
+            text-align: center;
+            color: deepskyblue;
+            background-size: cover;
+        }
+        .response {
+            padding: 40px;
+            border: 1px solid deepskyblue;
+            border-radius: 4px;
+            margin-top: 20px;
+            background-color: aliceblue;
+            align-items: stretch;
+            font-size: 16px;
+            font-family: sans-serif;
+        }
+        .responsibility {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Evaluation - Result</h1>
+    <div class="response">
+        <h2>The Response is:</h2>
+        <div id="responseContent">
+            {% if response %}
+                {{ response | safe }}  <!-- Ensure safe filter is used to render HTML safely -->
+            {% else %}
+                <p>No response available.</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
