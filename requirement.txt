@@ -1,4 +1,4 @@
-Flask==2.3.2
+Flask
 pdf2image==1.16.3
 Pillow==9.5.0
 google==3.0.0  # Ensure this version supports generativeai
