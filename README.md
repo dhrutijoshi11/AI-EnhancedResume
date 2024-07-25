@@ -8,7 +8,7 @@ The **AI-Enhanced Resume Job Evaluator** is a web application designed to help j
 
 Watch the demo video below:
 
-<iframe src="[https://drive.google.com/drive/u/2/home](https://drive.google.com/drive/u/2/my-drive)" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1ljor2Yh3f3oz4siJMJ75hlqWBNZlrEoS/view?usp=sharing" width="640" height="480"></iframe>
 
 
 ## Features
