@@ -4,6 +4,13 @@
 
 The **AI-Enhanced Resume Job Evaluator** is a web application designed to help job seekers optimize their resumes for specific job descriptions. By leveraging advanced AI models, including Google's Generative AI (Gemini), the application provides detailed insights and actionable feedback to improve resume quality and relevance.
 
+## Demo
+
+Watch the demo video below:
+
+<iframe src="[https://drive.google.com/file/d/YOUR_VIDEO_ID/preview](https://drive.google.com/drive/u/2/home)" width="640" height="480"></iframe>
+
+
 ## Features
 
 - **Review My Resume**: Get a comprehensive review of your resume based on the job description provided.
